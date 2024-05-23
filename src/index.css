@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: carto;
+    src: url('../src/assets/regular.otf');
+}
+
+
+body {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-family: carto;
+}
+
+.carto {
+    font-family: carto;
+}
+
+.bg-radial {
+    background: #0d132b;
+    background: radial-gradient(circle, #0d132b 0, #05060f 100%);
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+@media (min-width: 1280px) {
+    .container {
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+}
+
+/* @media (min-width: 1024px) {
+    .container {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+}
+ 
+
+@media (min-width: 640px) {
+    .container {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+} */
