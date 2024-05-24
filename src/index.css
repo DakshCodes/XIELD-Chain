@@ -6,6 +6,10 @@
     font-family: carto;
     src: url('../src/assets/regular.otf');
 }
+@font-face {
+    font-family: carto-bold;
+    src: url('../src/assets/bold.otf');
+}
 
 
 body {
@@ -17,6 +21,9 @@ body {
 
 .carto {
     font-family: carto;
+}
+.carto-bold{
+    font-family: carto-bold;
 }
 
 .bg-radial {
@@ -53,3 +60,9 @@ body {
         padding-left: 2rem;
     }
 } */
+
+.feature-card {
+    background-color: rgba(16, 24, 40, .8);
+    background: linear-gradient(180deg, rgba(57, 84, 142, .3), rgba(16, 24, 40, .3));
+    box-shadow: inset 9.6px 9.6px 9.6px 0 hsla(0, 0%, 95%, .02), inset -6.4px -6.4px 9.6px 0 hsla(0, 0%, 95%, .02), 4px 8px 0 0 #0d131e;
+}
