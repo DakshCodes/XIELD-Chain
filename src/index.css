@@ -6,6 +6,7 @@
     font-family: carto;
     src: url('../src/assets/regular.otf');
 }
+
 @font-face {
     font-family: carto-bold;
     src: url('../src/assets/bold.otf');
@@ -17,12 +18,14 @@ body {
     width: 100%;
     color: #fff;
     font-family: carto;
+    overflow: hidden;
 }
 
 .carto {
     font-family: carto;
 }
-.carto-bold{
+
+.carto-bold {
     font-family: carto-bold;
 }
 
@@ -65,4 +68,20 @@ body {
     background-color: rgba(16, 24, 40, .8);
     background: linear-gradient(180deg, rgba(57, 84, 142, .3), rgba(16, 24, 40, .3));
     box-shadow: inset 9.6px 9.6px 9.6px 0 hsla(0, 0%, 95%, .02), inset -6.4px -6.4px 9.6px 0 hsla(0, 0%, 95%, .02), 4px 8px 0 0 #0d131e;
+}
+
+.bg-feature-card-gradient {
+    background-image: linear-gradient(-45deg, #5e7394, #c5d8f5);
+}
+
+.footer {
+    background-image: url(https://xield.io/_next/static/media/footer-bg.e72b18e4.svg), url(https://xield.io/_next/static/media/bg-noise.5db3ded2.png);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-position: top;
+}
+
+.mouse-bg {
+    background: #a0b3fd;
+    background: radial-gradient(circle, rgba(93, 105, 155, .4) 0, rgba(17, 19, 31, 0) 70%);
 }
