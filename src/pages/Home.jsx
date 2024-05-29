@@ -115,7 +115,7 @@ function Home() {
                         className="transition-colors duration-300"> assets</motion.span>
                 </h1>
             </header>
-            <section className="container  relative mb-28  grid h-[1000px] place-content-center overflow-x-clip md:mb-52 lg:h-screen lg:max-h-[800px]" id="highlights">
+            <section className="container  relative mb-28  md:grid h-[1000px] place-content-center overflow-x-clip md:mb-52 lg:h-screen lg:max-h-[800px]" id="highlights">
                 <img className="min-w-[400px] opacity-30" src={`https://xield.io/images/highlights/00${imageIndex2 < 10 ? `0${imageIndex2}` : imageIndex2}.png`} />
                 <motion.article
                     initial={{
@@ -179,7 +179,7 @@ function Home() {
                     }}
                     viewport={{ once: true }}
                     transition={{ duration: 4, ease: "anticipate" }}
-                    className="feature-card absolute flex max-w-[192px] flex-col items-center gap-5 rounded-[20px] border-2 border-[#667085] px-7 py-5 backdrop-blur-lg sm:max-w-[200px] sm:px-7 sm:py-10 md:max-w-[230px] lg:max-w-[250px]  z-50 w-full" style={{ left: "65%", top: "45%", transform: "translateX(0px) rotate(-15deg) translateZ(0px)" }}>
+                    className="feature-card !left-20 md:!left-[65%] md:!top-[45%] !top-[80%] absolute flex max-w-[192px] flex-col items-center gap-5 rounded-[20px] border-2 border-[#667085] px-7 py-5 backdrop-blur-lg sm:max-w-[200px] sm:px-7 sm:py-10 md:max-w-[230px] lg:max-w-[250px]  z-50 w-full" style={{ left: "65%", top: "45%", transform: "translateX(0px) rotate(-15deg) translateZ(0px)" }}>
                     <span className="absolute left-3 top-3 h-[2.5px] w-[2.5px] rounded-full bg-[#D9D9D9]">
                     </span>
                     <span className="absolute right-3 top-3 h-[2.5px] w-[2.5px] rounded-full bg-[#D9D9D9]"></span>
