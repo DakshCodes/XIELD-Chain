@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     const lenis = new Lenis();
-    
+
     function raf(time) {
       lenis.raf(time);
       requestAnimationFrame(raf);
@@ -29,12 +29,13 @@ function App() {
     <>
       <div
         className="bg-black bg-radial relative border border-black h-max w-full"
-        onMouseMove={handleMouseMove} // Add onMouseMove event listener
+        onMouseMove={handleMouseMove}
       >
         {/* cursor */}
         <div
           className="mouse-bg pointer-events-none absolute z-[9999] hidden h-[360px] w-[360px] -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-red-50/10 transition-transform duration-300 ease-in-out lg:grid"
-          style={{ top: cursorPosition.y, left: cursorPosition.x }} // Set position based on state
+          style={{ top: cursorPosition.y, left: cursorPosition.x }}
+
         >
           <div className="mouse-bg absolute inset-0 h-full w-full rounded-full opacity-10"></div>
           <img

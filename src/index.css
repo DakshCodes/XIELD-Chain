@@ -75,7 +75,7 @@ body {
 }
 
 .footer {
-    background-image: url(https://xield.io/_next/static/media/footer-bg.e72b18e4.svg), url(https://xield.io/_next/static/media/bg-noise.5db3ded2.png);
+    background-image: url(https://xield.io/_next/static/media/footer-bg.e72b18e4.svg),url(https://xield.io/_next/static/media/bg-noise.5db3ded2.png);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     background-position: top;
