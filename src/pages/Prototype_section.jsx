@@ -42,7 +42,6 @@ function ProtoTypeSection() {
             scrollTrigger: {
                 trigger: ref.current,
                 pin: true,
-                pinSpacing: true,
                 start: "left-=120px left",
                 end: "+=2800",
                 scrub: 1
@@ -89,7 +88,7 @@ function ProtoTypeSection() {
                 </div>
                 <div className="relative">
                     <img alt="bg" className="absolute inset-0 h-full w-full object-cover" srcset="https://xield.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprotocol_step_bg.81272553.webp&amp;w=1920&amp;q=75 1x,https://xield.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprotocol_step_bg.81272553.webp&amp;w=3840&amp;q=75 2x" src="https://xield.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprotocol_step_bg.81272553.webp&amp;w=3840&amp;q=75" />
-                    <div ref={ref} className="relative  grid place-content-center overflow-clip py-8 md:min-h-[574px] md:pb-32 md:pt-20">
+                    <div ref={ref} className="relative min-h-[574px] h-full  grid place-content-center overflow-clip py-8 md:min-h-[574px] md:pb-32 md:pt-20">
                         <article className="absolute z-20 hidden w-full max-w-[340px] flex-col items-center gap-6 rounded-[32px] border border-[#344054] p-4 backdrop-blur-lg md:flex md:max-w-[540px] md:flex-row" style={{ top: "0px", opacity: "1", transform: "translateX(-66%) translateY(95%) translateZ(0px)" }}>
                             <div className="size-28 rounded-[29px] bg-[#D9D9D9] opacity-10 md:size-40"></div>
                             <div className="flex flex-1 flex-col items-start gap-4">
